@@ -29,7 +29,7 @@ fclose($fp);
 <head>
   <meta charset="UTF-8">
   <title>簡単掲示板</title>
-  <meta name="discription" content="久しぶりの練習。簡単な掲示板を作ります（プッシュの練習）">
+  <meta name="discription" content="プッシュができない？">
 </head>
 <body>
 <div id="wrapper">
