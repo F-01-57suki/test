@@ -23,13 +23,15 @@ if(file_exists('bord.txt')){
   $fp = fopen('bord.txt','w');
 }
 fclose($fp);
+//配列を逆に
+$bord_array = array_reverse($bord_array);
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>簡単掲示板</title>
-  <meta name="discription" content="プッシュができない？">
+  <meta name="discription" content="久しぶりの練習。簡単な掲示板を作ります">
 </head>
 <body>
 <div id="wrapper">
